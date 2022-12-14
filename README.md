@@ -4,7 +4,6 @@ game:GetService("RunService").Stepped:connect(function()
     end
 )
 
-
 game:GetService("RunService").Stepped:connect(function()
     for i,v in pairs(game:GetService("Workspace").Mob:GetChildren()) do
         local H = v:FindFirstChildWhichIsA("Humanoid")
